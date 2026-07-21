@@ -1,0 +1,43 @@
+# 🔐 Gerador de Senhas
+
+![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python&logoColor=white)
+![Tests](https://img.shields.io/badge/testes-6%20passando-brightgreen)
+![License](https://img.shields.io/badge/licença-MIT-blue)
+
+Gera senhas aleatórias e seguras usando o módulo `secrets` (criptograficamente seguro), com **medidor de força** baseado em entropia.
+
+## ✨ Funcionalidades
+
+- 📏 Tamanho personalizável
+- 🔤 Escolha de maiúsculas, números e símbolos
+- 🚫 Opção de **excluir caracteres ambíguos** (`I`, `l`, `1`, `O`, `0`)
+- 🔢 Geração de **várias senhas** de uma vez
+- 📊 **Cálculo de entropia** (em bits) e classificação de força
+- 🔒 Usa `secrets` em vez de `random` — adequado para segurança
+
+## 🚀 Como executar
+
+```bash
+python main.py
+```
+
+## 🧪 Testes
+
+```bash
+python -m unittest -v
+```
+
+## 📁 Estrutura
+
+```
+gerador-senhas/
+├── main.py             # Interface de linha de comando
+├── gerador.py          # Lógica de geração e cálculo de força
+└── test_gerador.py     # Testes automatizados
+```
+
+## 💡 Conceitos demonstrados
+
+- Geração segura de aleatoriedade (`secrets`)
+- Cálculo de entropia: `bits = tamanho × log₂(nº de caracteres possíveis)`
+- Funções com argumentos nomeados (`**kwargs`) e testes
