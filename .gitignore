@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Bancos e dados gerados em tempo de execução
+*.db
+*.sqlite
+*.sqlite3
+
+# Segredos — nunca versionar
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -41,3 +41,11 @@ gerador-senhas/
 - Geração segura de aleatoriedade (`secrets`)
 - Cálculo de entropia: `bits = tamanho × log₂(nº de caracteres possíveis)`
 - Funções com argumentos nomeados (`**kwargs`) e testes
+
+## 📄 Licença
+
+MIT — veja [LICENSE](./LICENSE).
+
+---
+
+Feito por **Iasmin Ribeiro de Souza** · [LinkedIn](https://www.linkedin.com/in/iasmin-ribeiro-de-souza-033536401) · [GitHub](https://github.com/IasminRDS)
