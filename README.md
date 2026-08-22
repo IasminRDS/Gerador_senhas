@@ -1,7 +1,7 @@
 # 🔐 Gerador de Senhas
 
 ![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python&logoColor=white)
-![Tests](https://img.shields.io/badge/testes-6%20passando-brightgreen)
+[![testes](https://github.com/IasminRDS/Gerador_senhas/actions/workflows/ci.yml/badge.svg)](https://github.com/IasminRDS/Gerador_senhas/actions/workflows/ci.yml)
 ![License](https://img.shields.io/badge/licença-MIT-blue)
 
 Gera senhas aleatórias e seguras usando o módulo `secrets` (criptograficamente seguro), com **medidor de força** baseado em entropia.
